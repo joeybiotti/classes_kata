@@ -6,8 +6,10 @@ namespace classes
     {
         static void Main(string[] args)
         {
-            Car car = new Car();
+            Car car = new Car("Prius");
             car.Start();
+
+            Console.WriteLine(car.GetName());
         }
     }
 }
